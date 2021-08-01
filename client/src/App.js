@@ -129,7 +129,7 @@ class App extends Component {
       <div className="App">
         <h2>EIP 712 Example</h2>
         <p>
-          Try changing the value stored on <strong>line 53</strong> of App.js.
+          Try changing the value stored on <strong>line 51</strong> of App.js.
         </p>
         <div>The stored value is: {this.state.storageValue}</div>
         <button onClick={() => this.signData()}> Press to sign </button>
