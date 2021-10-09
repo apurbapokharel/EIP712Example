@@ -24,7 +24,7 @@ contract SimpleStorage {
 
     uint chainId;
     assembly {
-      chainId := chainid
+      chainId := chainid()
     }
     bytes32 eip712DomainHash = keccak256(
         abi.encode(
