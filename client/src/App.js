@@ -46,8 +46,10 @@ class App extends Component {
   signData = async () => {
     const { web3, accounts, contract } = this.state;
     var signer = accounts[0];
-    var deadline = Date.now() + 100000;
-    console.log(deadline);
+    var milsec_deadline = Date.now() / 1000 + 100;
+    console.log(milsec_deadline, "milisec");
+    var deadline = parseInt(String(milsec_deadline).slice(0, 10));
+    console.log(deadline, "sec");
     var x = 157;
 
     web3.currentProvider.sendAsync({
