@@ -1,3 +1,7 @@
+# Notice
+
+This repository has not been updated since the last commit. The aim has always been to educate. Caution is advised when integrating into a working project.
+
 # Example of EIP-712
 
 A full stack example of how to implement EIP-712 in an ethereum contract.
